@@ -104,7 +104,6 @@ public class LoginActivity extends AppCompatActivity {
     private void submitlogin (){
         email = textInputEmail.getText().toString();
         textInputEmail.setText(email);
-
         userName = textInputPassword.getText().toString();
         textInputPassword.setText(userName);
 
